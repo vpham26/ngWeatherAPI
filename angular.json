@@ -98,6 +98,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "WeatherApp:build:production",
+            "firebaseProject": "ngweatherapi",
+            "firebaseHostingSite": "ngweatherapi"
+          }
         }
       }
     }

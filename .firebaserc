@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "ngweatherapi"
+  },
+  "targets": {
+    "ngweatherapi": {
+      "hosting": {
+        "WeatherApp": [
+          "ngweatherapi"
+        ]
+      }
+    }
+  }
+}
